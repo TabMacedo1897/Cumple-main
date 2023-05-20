@@ -1,0 +1,34 @@
+.bodyBackground 
+{
+    background-image:url(mexicoo.jpg);
+    background-position:center;
+    background-size:cover;
+}
+#myCanvas
+{
+    border-width: 10px;
+    background-color: rgb(20, 178, 246);
+    border-style: ridge;
+    border-color: darkcyan;   
+}
+.buttonClass {
+    font-size:20px;
+    font-family:Arial;
+    width: 150px;
+    height: 80px;
+    border-width:1px;
+    color:#fff;
+    border-color:#c584f3;
+    font-weight:bold;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    border-bottom-left-radius:6px;
+    border-bottom-right-radius:6px;
+    box-shadow:inset 0px 1px 0px 0px #efdcfb;
+    text-shadow:inset 0px 1px 0px #9752cc;
+    background:linear-gradient(#dfbdfa, #bc80ea);
+  }
+  
+  .buttonClass:hover {
+    background: linear-gradient(#bc80ea, #dfbdfa);
+  }
