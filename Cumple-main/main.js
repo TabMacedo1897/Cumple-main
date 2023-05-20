@@ -4,7 +4,7 @@
 
 function newImage()
 {
-	fabric.Image.fromURL('lupii.png', function(Img){
+	fabric.Image.fromURL('Happy.png', function(Img){
     blockImageObject = Img;
     blockImageObject.scaleToWidth(700)
     blockImageObject.scaleToHeight(510)
